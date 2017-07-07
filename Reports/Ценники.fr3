@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.4.51" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="По умолчанию" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="38287,6399962847" ReportOptions.Description.Text="" ReportOptions.LastChange="40379,6755450579" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403D00103546F7003280108446174617365747301010C3400000020446174615365743D22667278444244617461736574322220446174615365744E616D653D2266727844424461746173657432220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMemoView Name="Memo21" Left="49,13389" Top="37,7953" Width="232" Height="264" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-48" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Frame.Width="1,5" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text=""/>
+    <TfrxMemoView Name="Memo22" ShiftMode="smDontShift" Left="57,13389" Top="45,7953" Width="216" Height="20" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset2.&#34;NameGr&#34;]"/>
+    <TfrxMemoView Name="Memo23" Left="57,13389" Top="65,7953" Width="216" Height="208,72449" Font.Charset="1" Font.Color="0" Font.Height="-29" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset2.&#34;NameTovara&#34;]"/>
+    <TfrxMemoView Name="Memo25" ShiftMode="smDontShift" Left="57,13389" Top="273,7953" Width="216" Height="20" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text="РџРѕРґРїРёСЃСЊ"/>
+  </TfrxReportPage>
+</TfrxReport>

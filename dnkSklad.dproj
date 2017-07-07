@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{e234471d-9557-4c0b-ae6c-a8e3f8a016f9}</ProjectGuid>
+    <MainSource>dnkSklad.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>dnkSklad.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_FullBooleanEvaluations>True</DCC_FullBooleanEvaluations>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_TypedAtParameter>True</DCC_TypedAtParameter>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_FullBooleanEvaluations>True</DCC_FullBooleanEvaluations>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_TypedAtParameter>True</DCC_TypedAtParameter>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_DcuOutput>.\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>.\dcu</DCC_ObjOutput>
+    <DCC_HppOutput>.\dcu</DCC_HppOutput>
+    <DCC_UnitSearchPath>C:\comps\FastReport25\Source</DCC_UnitSearchPath>
+    <DCC_ResourcePath>C:\comps\FastReport25\Source</DCC_ResourcePath>
+    <DCC_ObjPath>C:\comps\FastReport25\Source</DCC_ObjPath>
+    <DCC_IncludePath>C:\comps\FastReport25\Source</DCC_IncludePath>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">2</VersionInfo><VersionInfo Name="MinorVer">15</VersionInfo><VersionInfo Name="Release">4</VersionInfo><VersionInfo Name="Build">5</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1049</VersionInfo><VersionInfo Name="CodePage">1251</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">dnkSoftWare</VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">2.15.4.5</VersionInfoKeys><VersionInfoKeys Name="InternalName">dnk-Склад</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">dnkSoftWare</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">2.6.4.10</VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">dnkSklad.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="dnkSklad.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="UnitAddSumma.pas">
+      <Form>FormAddSumma</Form>
+    </DCCReference>
+    <DCCReference Include="UnitBanks.pas">
+      <Form>FormBanks</Form>
+    </DCCReference>
+    <DCCReference Include="UnitCulc.pas">
+      <Form>FormAb</Form>
+    </DCCReference>
+    <DCCReference Include="UnitCustom.pas">
+      <Form>FormCustom</Form>
+    </DCCReference>
+    <DCCReference Include="UnitDataSelect.pas">
+      <Form>FormPeriodSelect</Form>
+    </DCCReference>
+    <DCCReference Include="UnitDM.pas">
+      <Form>DM</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="UnitEdin.pas">
+      <Form>FormEdin</Form>
+    </DCCReference>
+    <DCCReference Include="UnitEditCustom.pas">
+      <Form>FormEditCustom</Form>
+    </DCCReference>
+    <DCCReference Include="UnitEditCustomZad.pas">
+      <Form>FormEditCustomZad</Form>
+    </DCCReference>
+    <DCCReference Include="UnitEditNal.pas">
+      <Form>EditNal</Form>
+    </DCCReference>
+    <DCCReference Include="UnitFRXfunc.pas" />
+    <DCCReference Include="UnitMain.pas">
+      <Form>FormMain</Form>
+    </DCCReference>
+    <DCCReference Include="UnitMDICh.pas">
+      <Form>FormMDICh</Form>
+    </DCCReference>
+    <DCCReference Include="UnitNalich.pas">
+      <Form>FormNal</Form>
+    </DCCReference>
+    <DCCReference Include="UnitOpt.pas">
+      <Form>FormOpt</Form>
+    </DCCReference>
+    <DCCReference Include="UnitPre.pas">
+      <Form>FormPre</Form>
+    </DCCReference>
+    <DCCReference Include="UnitPrihod.pas">
+      <Form>FormPrihod</Form>
+    </DCCReference>
+    <DCCReference Include="UnitProgress.pas">
+      <Form>FormProgress</Form>
+    </DCCReference>
+    <DCCReference Include="UnitRashod.pas">
+      <Form>FormRashod</Form>
+    </DCCReference>
+    <DCCReference Include="UnitSelectData.pas">
+      <Form>FormSelectData</Form>
+    </DCCReference>
+    <DCCReference Include="UnitSklad.pas">
+      <Form>FormSklad</Form>
+    </DCCReference>
+    <DCCReference Include="UnitSkladSelect.pas">
+      <Form>FormSkladSelected</Form>
+    </DCCReference>
+    <DCCReference Include="UnitSplash.pas">
+      <Form>SplashForm</Form>
+    </DCCReference>
+    <DCCReference Include="UnitTovar.pas">
+      <Form>FormTovar</Form>
+    </DCCReference>
+    <DCCReference Include="UnitTovarSel.pas">
+      <Form>FormTovarSel</Form>
+    </DCCReference>
+    <DCCReference Include="UnitTovarSelRash.pas">
+      <Form>FormTovarSelRash</Form>
+    </DCCReference>
+    <DCCReference Include="UnitUserSel.pas">
+      <Form>FormUserSel</Form>
+    </DCCReference>
+    <None Include="dnkSklad.todo" />
+  </ItemGroup>
+</Project>

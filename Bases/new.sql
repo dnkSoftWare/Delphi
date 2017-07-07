@@ -1,0 +1,16 @@
+/* SQL-92 Table Creation Script with DBISAM Extensions */
+
+CREATE TABLE IF NOT EXISTS "banks"
+(
+   "id" AUTOINC,
+   "BIK" VARCHAR(9),
+   "namebanka" VARCHAR(250),
+   "korschet" VARCHAR(20),
+   "UpDateFlag" BOOLEAN,
+PRIMARY KEY ("id") COMPRESS NONE
+LOCALE CODE 1049
+USER MAJOR VERSION 2
+USER MINOR VERSION 5
+);
+
+CREATE UNIQUE INDEX IF NOT EXISTS "bik" ON "banks" ("BIK");
